@@ -8,7 +8,7 @@ Chrome's console to rapidly build pages in a testable way.
 
 ```JavaScript
 
-function SomeFunction($obj, options) {
+function SomeModule($obj, options) {
 
   options = options || { }
   options.someOption = options.someOption || 42
@@ -36,7 +36,7 @@ function SomeFunction($obj, options) {
 
 
 $(document).ready(function() {
-  someFunction = SomeFunction($("#myBox"), {  someOption : 21  })
+  someModule = SomeModule($("#myBox"), {  someOption : 21  })
 })
 
 
